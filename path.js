@@ -15,11 +15,11 @@
 
 // console.log(path.parse(finalPath));
 
-// Real World Example
-const path = require("path");
-const fs = require("fs");
+// // Real World Example
+// const path = require("path");
+// const fs = require("fs");
 
-const fileData = path.join(__dirname, "data", "Text1.txt");
-fs.writeFileSync(fileData, "Hello, Parampreet !");
-const data = fs.readFileSync(fileData, "utf-8");
-console.log(data);
+// const fileData = path.join(__dirname, "data", "Text1.txt");
+// fs.writeFileSync(fileData, "Hello, Parampreet !");
+// const data = fs.readFileSync(fileData, "utf-8");
+// console.log(data);
